@@ -1,0 +1,110 @@
+html{
+    font-family: sans-serif;
+}
+body{
+    margin: 0px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 25px 0 15px 0;
+}
+h2{
+    font-size: 17px;
+    font-weight: bold;
+    color: red;
+}
+#wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.header{
+    color: green;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 400px;
+}
+.header h2{
+    font-size: 30px;
+}
+.btn-nav{
+    background-color: #0099FF;
+}
+ul,li{
+    list-style: none;
+}
+.col-sm-9{
+    margin-left: 10rem;
+}
+.btn-group{
+   font-size: 50px;
+}
+.lbltitle{
+    width: 20%;
+    float: left;
+}
+.lblinput, .lbloutput{
+    width: 80%;
+    float: left;
+
+}
+.nav-header{
+    width: 200%;
+}
+.section-card{
+    background-color: azure;
+    width: 50%;
+    margin-top: 5rem;
+    border-radius: 20px;
+    margin-left: 25rem;
+    padding-left: 10px;
+    padding-top: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0 5px 20px black;
+    }
+.input-img{
+    background-color:aliceblue;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: crimson;
+}
+.input-select{
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #0099FF;
+}
+.input-add{
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+}
+.input-add:hover{
+    background-color: antiquewhite;
+    border-bottom: 3px solid #0099FF;
+}
+.input-add:focus{
+    outline: none;
+    color: crimson;
+}
+.submit{
+    width: 50%;
+    background-color: #0099FF;
+    margin-left: 10rem;
+    border: none;
+    border-radius: 5px;
+}
+.card-formm{
+    margin-left: 8rem;
+    width: 100%;
+}
+input, textarea{
+    width: 300px;
+}
+button{
+    width: 307px;
+}
